@@ -1,7 +1,7 @@
 OS := $(shell uname -s)
 ARCH := $(shell uname -m)
 $(GOROOT=/usr/local/go)
-$(GOPATH=$HOME/go
+$(GOPATH=$HOME/go)
 $(PATH=$GOPATH/bin:$GOROOT/bin:$PATH)
 GO_VERSION := $(shell go version | cut -f3 -d" ")
 GO_MINOR_VERSION := $(shell echo $(GO_VERSION) | cut -f2 -d.)
