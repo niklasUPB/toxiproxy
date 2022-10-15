@@ -10,3 +10,4 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 source ~/.profile
 go version
 make build
+toxiproxy-server
